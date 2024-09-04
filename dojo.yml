@@ -1,0 +1,8 @@
+id: example
+name: Python
+type: roadshow
+award:
+  emoji: 😀
+modules:
+  - id: beginner
+  - id: advanced
