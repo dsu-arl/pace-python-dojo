@@ -2,7 +2,7 @@ id: example
 name: Python
 type: roadshow
 award:
-  emoji: 😀
+  emoji: 🐍
 modules:
   - id: beginner
   - id: advanced
