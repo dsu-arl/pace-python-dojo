@@ -2,13 +2,13 @@ name: Beginner Python
 challenges:
   - id: beginner-python-0
     name: Printing Text
-  - id: beginner-python-1
-    name: Variables
-  - id: beginner-python-2
-    name: User Input
-  - id: beginner-python-3
-    name: Conditionals
-  - id: beginner-python-4
-    name: Math Operators
-  - id: beginner-python-5
-    name: Functions
+  #- id: beginner-python-1
+  #  name: Variables
+  #- id: beginner-python-2
+  #  name: User Input
+  #- id: beginner-python-3
+  #  name: Conditionals
+  #- id: beginner-python-4
+  #  name: Math Operators
+  #- id: beginner-python-5
+  #  name: Functions
