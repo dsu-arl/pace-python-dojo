@@ -1,1 +1,48 @@
+##!/opt/pwn.college/python
 
+import subprocess
+import traceback
+import sys
+import os
+import re
+
+def run_and_check_script(script_path):
+    try:
+        # Run the user's script using subprocess
+        p = subprocess.Popen(
+            ["python", script_path],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+
+
+        stdout, stderr = p.communicate()
+
+        # Set up to match all cases of Hello World!
+        text = re.compile('^hello world!?$', re.IGNORECASE)
+        if not text.match(stdout.strip()):
+            print(f"Error: Make sure that you are printing 'Hello World!' exactly!")
+            exit()
+
+        print_flag()
+
+    except Exception as e:
+        print("Unexpected error occurred:")
+        traceback.print_exc()
+
+def print_flag():
+    try:
+        with open("/flag") as f:
+            print(f.read())
+    except FileNotFoundError:
+        print("Error: Flag file not found.")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: run <user_script.py>")
+        sys.exit(1)
+
+    user_script_path = sys.argv[1]
+    run_and_check_script(user_script_path)
