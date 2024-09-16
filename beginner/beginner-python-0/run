@@ -1,4 +1,7 @@
 #!/opt/pwn.college/python
+import os
+
+print(os.getcwd())
 
 from pacePythonTester import ExecutionAgent as ex
 import sys
@@ -31,9 +34,6 @@ def run_and_check_script(user_script_path):
 
 
 if __name__ == "__main__":
-
-    print(os.getcwd())
-
     if len(sys.argv) != 2:
         print("Usage: run <user_script.py>")
         sys.exit(1)
