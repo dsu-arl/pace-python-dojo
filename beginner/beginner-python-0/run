@@ -18,7 +18,7 @@ def run_and_check_script(user_script_path):
         stdout, stderr = ex.run(user_script_path)
     except TypeError as e:
         """ Issue with noneType return """
-        print("Error: " + e)
+        print("Error:", e)
         exit()
 
     # Set up to match all cases of Hello World!
