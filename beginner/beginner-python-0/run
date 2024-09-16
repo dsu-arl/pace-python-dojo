@@ -1,10 +1,11 @@
 #!/opt/pwn.college/python
-import os
 
-print(os.getcwd())
+with open("/flag", "r") as f:
+    print(f.read())
 
 from pacePythonTester import ExecutionAgent as ex
 import sys
+import os
 import re
 
 def print_flag():
