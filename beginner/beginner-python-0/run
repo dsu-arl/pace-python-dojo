@@ -1,6 +1,7 @@
 #!/opt/pwn.college/python
 
 from pacePythonTester import ExecutionAgent as ex
+import sys
 import re
 
 def print_flag():
