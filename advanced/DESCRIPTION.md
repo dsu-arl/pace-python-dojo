@@ -1,1 +1,0 @@
-This roadshow module will teach novice/advanced python programmers a few new things.

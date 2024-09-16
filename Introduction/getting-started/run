@@ -1,0 +1,15 @@
+#!/opt/pwn.college/python
+
+def print_flag():
+    try:
+        with open("/flag", "r") as f:
+            print(f.read())
+    except FileNotFoundError:
+        print("Error: Flag file not found.")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("When solving these challenges with /challenge/run\nYou will be required to also include the name of the python script you are writing")
+        print("For example:\n/challenge/run myScript.py\n")
+
+    print_flag()

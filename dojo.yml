@@ -4,5 +4,4 @@ type: roadshow
 award:
   emoji: 🐍
 modules:
-  - id: beginner
-  - id: advanced
+  - id: Introduction

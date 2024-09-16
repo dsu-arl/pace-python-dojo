@@ -1,0 +1,6 @@
+name: Introduction
+challenges:
+  - id: getting-started
+    name: Getting Started
+  - id: printing
+    name: Printing Text
