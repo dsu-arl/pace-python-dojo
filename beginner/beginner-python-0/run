@@ -13,7 +13,6 @@ def print_flag():
 
 def run_and_check_script(user_script_path):
 
-    print_flag()
     # Run their program
     try:
         stdout, stderr = ex.run(user_script_path)
