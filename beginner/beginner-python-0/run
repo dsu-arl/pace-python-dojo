@@ -1,9 +1,5 @@
 #!/opt/pwn.college/python
-
-with open("/flag", "r") as f:
-    print(f.read())
-
-from pacePythonTester import ExecutionAgent as ex
+from challenge.pacePythonTester import ExecutionAgent as ex
 import sys
 import os
 import re
