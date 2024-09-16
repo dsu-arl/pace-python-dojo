@@ -6,7 +6,7 @@ import re
 
 def print_flag():
     try:
-        with open("/flag") as f:
+        with open("/flag", "r") as f:
             print(f.read())
     except FileNotFoundError:
         print("Error: Flag file not found.")
