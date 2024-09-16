@@ -5,17 +5,30 @@ import traceback
 import sys
 import os
 
+def demote_user(user_uid, user_gid):
+    """ demote the user env to the 'hacker' user to avoid /flag read attempts """
+    def result():
+        os.setgid(user_gid)
+        os.setuid(user_uid)
+    return result
+
 def run_and_check_script(script_path):
     try:
+        # Get user info to demote and avoid /flag read attempts
+        username = "hacker"
+        pw_record = pwd.getpwnam(username)
+        user_uid = pw_record.pw_uid
+        user_gid = pw_record.pw_gid
+
         # Run the user's script using subprocess
         p = subprocess.Popen(
             ["python", script_path],
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
+            preexec_fn=demote_user(user_uid, user_gid),
             text=True
         )
-
 
         # Run user input test cases
         test_cases = [(5, 3)]
