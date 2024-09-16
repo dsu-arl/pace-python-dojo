@@ -1,3 +1,3 @@
-[submodule "beginner/beginner-python-0/pace-python-tester"]
-	path = beginner/beginner-python-0/pace-python-tester
-	url = https://github.com/dsu-arl/pace-python-tester
+[submodule "beginner/beginner-python-0/pacePythonTester"]
+	path = beginner/beginner-python-0/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
