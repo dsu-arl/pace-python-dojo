@@ -14,7 +14,12 @@ def print_flag():
 def run_and_check_script(user_script_path):
 
     # Run their program
-    stdout, stderr = ex.run(user_script_path)
+    try:
+        stdout, stderr = ex.run(user_script_path)
+    except TypeError as e:
+        """ Issue with noneType return """
+        print("Error: " + e)
+        exit()
 
     # Set up to match all cases of Hello World!
     text = re.compile('^hello world!?$', re.IGNORECASE)
