@@ -1,0 +1,1 @@
+All about learning input and output from a user on the commandline

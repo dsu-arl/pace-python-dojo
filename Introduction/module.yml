@@ -1,6 +1,8 @@
 name: Introduction
 challenges:
-  - id: getting-started
-    name: Getting Started
-  - id: printing
-    name: Printing Text
+  #- id: intro-vscode
+  #  name: Using vscode
+  #- id: intro-gui
+  #  name: Using the GUI
+  - id: intro-testing-code
+    name: How to test Code
