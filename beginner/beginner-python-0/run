@@ -1,6 +1,6 @@
 #!/opt/pwn.college/python
 
-from pacePythonTester import ExecutionAgent as ex
+from pacePythonTester.ExecutionAgent import ExecutionAgent as ex
 import sys
 import re
 
