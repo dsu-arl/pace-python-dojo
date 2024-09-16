@@ -1,8 +1,8 @@
 name: Introduction
 challenges:
+  - id: intro-testing-code
+    name: How to test Code
   #- id: intro-vscode
   #  name: Using vscode
   #- id: intro-gui
   #  name: Using the GUI
-  - id: intro-testing-code
-    name: How to test Code
