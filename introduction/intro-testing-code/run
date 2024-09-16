@@ -1,5 +1,7 @@
 #!/opt/pwn.college/python
 
+import sys
+
 def print_flag():
     try:
         with open("/flag", "r") as f:
