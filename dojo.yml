@@ -4,5 +4,7 @@ type: roadshow
 award:
   emoji: 🐍
 modules:
-  - id: Introduction
-  - id: Input and Output
+  - id: introduction
+    name: Introduction
+  - id: input-and-output
+    name: Input and Output
