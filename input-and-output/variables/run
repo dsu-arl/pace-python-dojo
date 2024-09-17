@@ -30,7 +30,7 @@ def check_script(user_script_path):
         user_script_path = get_file_path(user_script_path)
 
     # Verify the file exists
-    if not full_path:
+    if not user_script_path:
         print("Error: Couldn't find your python script")
         exit()
 
