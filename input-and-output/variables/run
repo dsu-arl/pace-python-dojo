@@ -1,0 +1,30 @@
+#!/opt/pwn.college/python
+import sys
+import os
+import re
+
+sys.path.append('/challenge')
+from pacePythonTester import ExecutionAgent as ex
+
+def print_flag():
+    try:
+        with open("/flag", "r") as f:
+            print(f.read())
+    except FileNotFoundError:
+        print("Error: Flag file not found.")
+
+def check_script(user_script_path):
+
+    vars = ex.get_variables(user_script_path)
+    if len(vars) >= 3:
+        print_flag()
+    else:
+        print("Error: Make sure to define at least 3 variables in your script!")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: run <user_script.py>")
+        sys.exit(1)
+
+    user_script_path = sys.argv[1]
+    check_script(user_script_path)

@@ -1,3 +1,6 @@
 [submodule "input-and-output/printing/pacePythonTester"]
 	path = input-and-output/printing/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "input-and-output/variables/pacePythonTester"]
+	path = input-and-output/variables/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester

@@ -2,3 +2,5 @@ name: Input and Output
 challenges:
   - id: printing
     name: Printing Text
+  - id: variables
+    name: Variables
