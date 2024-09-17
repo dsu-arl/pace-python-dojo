@@ -13,7 +13,26 @@ def print_flag():
     except FileNotFoundError:
         print("Error: Flag file not found.")
 
+def get_file_path(file_name):
+    """ Get the full path to a file located in the current working directory. """
+    cwd = os.getcwd()  # Get the current working directory
+    full_path = os.path.join(cwd, file_name)  # Construct the full path
+
+    if os.path.isfile(full_path):
+        return full_path
+    else:
+        return None
+
 def check_script(user_script_path):
+
+    # Calculate file path if not given
+    if '/' not in user_script_path:
+        user_script_path = get_file_path(user_script_path)
+
+    # Verify the file exists
+    if not full_path:
+        print("Error: Couldn't find your python script")
+        exit()
 
     vars = ex.get_variables(user_script_path)
     if len(vars) >= 3:
