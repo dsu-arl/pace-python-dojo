@@ -11,8 +11,8 @@ modules:
   - id: math-operators
     name: Math Operators
   - id: conditionals
-    name: Control Flow - Conditionals
+    name: Conditionals
   - id: loops
-    name: Control Flow - Loops
+    name: Loops
   - id: functions
-    name: Control Flow - Functions
+    name: Functions
