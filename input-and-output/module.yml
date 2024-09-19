@@ -4,3 +4,5 @@ challenges:
     name: Printing Text
   - id: variables
     name: Variables
+  - id: format print
+    name: Format Printing
