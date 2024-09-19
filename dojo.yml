@@ -8,3 +8,11 @@ modules:
     name: Introduction
   - id: input-and-output
     name: Input and Output
+  - id: math-operators
+    name: Math Operators
+  - id: conditionals
+    name: Control Flow - Conditionals
+  - id: loops
+    name: Control Flow - Loops
+  - id: functions
+    name: Control Flow - Functions
