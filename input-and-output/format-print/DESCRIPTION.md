@@ -19,4 +19,4 @@ When running this code, we will get the following output:
 Hello The Rizzler, Your Total is: 1024.67
 ```
 
-CHALLENGE MESSAGE GOES HERE
+***Challenge:*** CHALLENGE MESSAGE GOES HERE

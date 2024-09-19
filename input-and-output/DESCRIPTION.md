@@ -1,43 +1,4 @@
-All about learning input and output from a user on the commandline
-
-## Printing
-The first thing to learn when programming is how to print information to the screen, as a program is only useful if you can see its results. In Python, to print to the screen, we will use the `print()` function (We will cover functions in  more detail later).
-
-### Print Syntax:
-```commandline
-print(STRING MESSAGE TO PRINT)
-```
-
-
-For Example:
-```commandline
-print("My Output!!")
-```
-When run this will display the following:
-```commandline
-My Output!!
-```
-
-## Variables
-Programming is so much more than printing things to the screen. We need to learn how to store information and use it throughout the program: this can be accomplished with variables.
-
-Python makes this super simple, as it doesn't care about defining the type of the variable. That is to say, you give python what you want to store and it just handles it, whereas some languages require you to explicitly declare what type it is beforehand.
-
-For the sake of this lesson we only care about Integers (whole numbers), Floats (decimal point numbers), and Strings (words/sentences). Here is how we declare each:
-```
-counter = 1000          # creates an integer numeric variable
-total = 1024.67		    # creates a float numeric variable
-name = "The Rizzler" 	# Creates a string variable
-```
-Later we will learn how to use these variable throughout the program, but for now we are only concerned about declaring them correctly. The easiest way to verify varables is to print them to the screen. Thankfully, Python makes this super easy. We will use the same method (`print()`) we used in Level 1, but pass the variables into it instead of hardcoding a string.
-
-```
-print(counter)
-print(total)
-print(name)
-```
-Print out your variables, and verify they are exactly the same as what you assigned them to in your program. 
-
+All about learning about program input and output in Python. Topics to be covered: Printing, Variables, Format Printing, User Input, and Type Casting.
 ### User Input and Type Casting
 Now that you understand variables, it is important to learn how to change them on the fly. This allows your program to be interactive, and can be accomplished by using user input. 
 
