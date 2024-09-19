@@ -6,3 +6,7 @@ challenges:
     name: Variables
   - id: format-print
     name: Format Printing
+  - id: user-input
+    name: User Input
+  - id: type-casting
+    name: Type Casting
