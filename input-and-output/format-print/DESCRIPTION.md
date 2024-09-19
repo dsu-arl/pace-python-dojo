@@ -1,4 +1,3 @@
-### Format Printing
 Sometimes when we print we want to include some more information instead of just the value. This can be accomplished in a couple different ways. The first way is simply adding multiple strings together. Using the `name` variable we defined above, we could print a message before we print the value of `name` by doing something like this:
 ```commandline
 print("Name is defined as ", name)
