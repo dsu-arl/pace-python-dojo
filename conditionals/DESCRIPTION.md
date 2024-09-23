@@ -8,4 +8,4 @@ Topics to be included:
 - If-Else statements
 - Nested Conditionals
 - Else-If statements
-- Logic Operators. 
+- Logic Operators 
