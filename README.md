@@ -15,19 +15,19 @@
         - [x] Verify Script
     - [ ] Variables
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Format Printing
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] User Input
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Type Casting
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
 - [ ] Math Operators
     - [ ] Math Operators
