@@ -19,4 +19,10 @@ Print out your variables, and verify they are exactly the same as what you assig
 
 
 
-***Challenge:*** Use python to define 3 variables
+#### Challenge:
+Use python to create 3 variables
+
+1. Create a new file with the file extension `.py`
+2. Write python to create 3 variables and print them to the screen
+3. Test your solution with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`

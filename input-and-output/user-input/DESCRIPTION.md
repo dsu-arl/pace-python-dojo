@@ -36,4 +36,17 @@ name = input()
 name = input("Enter your name: ")
 ```
 
-***Challenge:*** ENTER CHALLENGE HERE
+#### Challenge:
+Use python to read a user's name and tell them Hello
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept a name from the user
+2. Print `Hello,` name for the user
+```bash
+# Example Running of the program
+python yourScript.py
+What is your name: Greg
+Hello, Greg
+```
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`

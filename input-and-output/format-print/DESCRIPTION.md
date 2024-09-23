@@ -18,4 +18,11 @@ When running this code, we will get the following output:
 Hello The Rizzler, Your Total is: 1024.67
 ```
 
-***Challenge:*** CHALLENGE MESSAGE GOES HERE
+#### Challenge:
+Use python to create and print a variable with `.format`
+
+1. Create a new file with the file extension `.py`
+2. Create a python variable that contains a name
+2. Write the python code to print the text `Hello ` name
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`

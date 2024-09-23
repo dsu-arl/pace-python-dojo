@@ -17,4 +17,17 @@ print("Age in the future", future_age)
 
 Python will let you type cast other things as well. The ones you should be concerned about are `int()`, `float()`, and `str()`. 
 
-***Challenge:*** ENTER CHALLENGE HERE
+#### Challenge:
+Use python to calculate a users age + 7
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept an integer from user input that represents their age
+2. Write the python code to calculate their age in 7 years and prints the resulting number
+```bash
+# Example Running of the program
+python yourScript.py
+What is your age: 15
+22
+```
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`

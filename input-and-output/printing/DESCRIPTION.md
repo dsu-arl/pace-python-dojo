@@ -16,4 +16,10 @@ My Output!!
 ```
 
 
-***Challenge:*** Use python to print the text 'Hello World!' to the screen.
+#### Challenge:
+Use python to print the text 'Hello World!' to the screen.
+
+1. Create a new file with the file extension `.py`
+2. Write the python code to print the text `Hello World!`
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`
