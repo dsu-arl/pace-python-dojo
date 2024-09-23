@@ -5,7 +5,7 @@ challenges:
   - id: lists
     name: Python Lists
   - id: range
-  name: Range() Function
+  name: Range Function
   - id: for
     name: For Loops
 
