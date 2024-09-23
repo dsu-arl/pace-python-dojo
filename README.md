@@ -60,9 +60,22 @@
         - [ ] Challenge
         - [ ] Verify Scripts  
 - [ ] Loops
-    - [ ] Print numbers 1-100
-        - [ ] Description
+    - [ ] While Loops
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
+    - [ ] Python Lists
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Range Function
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] For Loops
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script    
 - [ ] Functions
     - [ ] Function Challenge
         - [ ] Description
