@@ -7,7 +7,7 @@ When run, the program will output the following:
 Name is defined as The Rizzler
 ```
 
-This is rather straightforward, but can become messy quicly if printing multiple variables and messages.The other way we could accomplish this is by using a **format string**. This requires some different things: the variable place holders, the `.format()` function call, and the variables to be printed. The placeholders are just `{}` inside of your string.
+This is rather straightforward, but can become messy quickly if printing multiple variables and messages.The other way we could accomplish this is by using a **format string**. This requires some different things: the variable place holders, the `.format()` function call, and the variables to be printed. The placeholders are just `{}` inside of your string.
 
 If we put it all together, we can create some interactive prints. Using variables, we defined above let's build out a format string:
 ```commandline
