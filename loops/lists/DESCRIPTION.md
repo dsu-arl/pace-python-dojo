@@ -1,5 +1,5 @@
 
-A list is a built-in data type in Python. A Python list is a sequence of comma seperated items, enclosed in square brackets. Every item in a list can be made up of any type of variable we have learned about so far, and they don't necessarily be the same type. 
+A list is a built-in data type in Python. A Python list is a sequence of comma seperated items, enclosed in square brackets. Every item in a list can be made up of any type of variable we have learned about so far, and they don't necessarily need to be the same type. 
 **Examples of Python Lists:**
 ```
 list1 = ["Thomas", "Jefferson", "President", 3]
