@@ -1,4 +1,5 @@
 Lastly, Python also supports **logical operators**, these allow you to combine two or more conditionals in one statement. These are the supported logical operators we care about at this time:
+
 | Operator | Name | Example |
 |---|---|---|
 | and | AND | CONDITIONAL1 and CONDITIONAL2 |
