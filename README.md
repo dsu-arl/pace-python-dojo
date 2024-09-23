@@ -1,1 +1,53 @@
 # Pace Python Dojo
+
+## Checklist
+- [ ] Introduction
+    - [ ] How to Use
+        - [ ] Description
+        - [ ] Verify Script
+    - [ ] How python works
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] User Input / Output
+    - [x] Hello World
+        - [x] Description
+        - [x] Verify Script
+    - [ ] Variables
+        - [ ] Description
+        - [ ] Verify Script
+    - [ ] User Input / Type Casting
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Operators
+    - [ ] Math Operators
+        - [ ] Description
+        - [ ] Verify Script
+    - [ ] Comparison Operators
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Conditionals
+    - [ ] Check if a number is 0 negative or positive
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Loops
+    - [ ] Print numbers 1-100
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Functions
+    - [ ] Function Challenge
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Data Structures
+    - [ ] Lists
+        - [ ] Description
+        - [ ] Verify Script
+    - [ ] Dictionaries
+        - [ ] Description
+        - [ ] Verify Script
+    - [ ] Classes / Objects
+        - [ ] Description
+        - [ ] Verify Script
+- [ ] Algorithms
+    - [ ] Searching & Sorting
+        - [ ] Description
+        - [ ] Verify Script
