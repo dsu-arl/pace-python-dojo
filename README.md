@@ -9,21 +9,34 @@
         - [ ] Description
         - [ ] Verify Script
 - [ ] User Input / Output
-    - [x] Hello World
+    - [x] Printing Text
         - [x] Description
+        - [x] Challenge
         - [x] Verify Script
     - [ ] Variables
-        - [ ] Description
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
-    - [ ] User Input / Type Casting
-        - [ ] Description
+    - [ ] Format Printing
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
-- [ ] Operators
+    - [ ] User Input
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Type Casting
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+- [ ] Math Operators
     - [ ] Math Operators
-        - [ ] Description
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
     - [ ] Comparison Operators
-        - [ ] Description
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
 - [ ] Conditionals
     - [ ] Check if a number is 0 negative or positive
