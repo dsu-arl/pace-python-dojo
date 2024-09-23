@@ -39,9 +39,26 @@
         - [ ] Challenge
         - [ ] Verify Script
 - [ ] Conditionals
-    - [ ] Check if a number is 0 negative or positive
-        - [ ] Description
+    - [ ] If Statements
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
+    - [ ] If-Else Statements
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Nested Conditionals
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Else-If Blocks
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Logical Operators
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Scripts  
 - [ ] Loops
     - [ ] Print numbers 1-100
         - [ ] Description
