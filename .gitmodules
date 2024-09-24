@@ -4,3 +4,9 @@
 [submodule "input-and-output/variables/pacePythonTester"]
 	path = input-and-output/variables/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "input-and-output/user-input/pacePythonTester"]
+	path = input-and-output/user-input/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "input-and-output/format-print/pacePythonTester"]
+	path = input-and-output/format-print/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester

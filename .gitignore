@@ -1,3 +1,6 @@
 # Ignore temp files
 *.swp
 *.swo
+
+# Ignore vscode stuff
+.vscode/*
