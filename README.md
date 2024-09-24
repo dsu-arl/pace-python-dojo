@@ -8,24 +8,24 @@
     - [ ] How python works
         - [ ] Description
         - [ ] Verify Script
-- [ ] User Input / Output
+- [x] User Input / Output
     - [x] Printing Text
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
-    - [ ] Variables
+    - [x] Variables
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
-    - [ ] Format Printing
+    - [x] Format Printing
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
-    - [ ] User Input
+    - [x] User Input
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
-    - [ ] Type Casting
+    - [x] Type Casting
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
