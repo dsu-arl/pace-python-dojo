@@ -29,6 +29,11 @@ def run_and_check_script(user_script_path):
         print(f"Error: Make sure that you are printing 'Hello, Name'!")
         exit()
 
+    # Also, verify that they used the text .format in the file
+    if not ex.parse_script("\.format\("):
+        print(f"Error: Make sure that you are using .format to print your string!")
+        exit()
+
     print_flag()
 
 
