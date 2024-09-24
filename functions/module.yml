@@ -1,0 +1,15 @@
+name: Functions
+challenges:
+  - id: built-in
+    name: Built-in Functions
+  - id: built-in-modules
+    name: Built-in Module Functions
+  - id: user-defined
+    name: User-defined Functions
+  - id: calling
+    name: Calling Functions
+  - id: function-arguments
+    name: Function Arguments
+  - id: return-values
+    name: Function Return Values
+

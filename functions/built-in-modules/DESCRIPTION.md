@@ -1,0 +1,3 @@
+This concerns you less, as we haven't introduced modules to you yet and we don't include any external modules in this Dojo. But, it is worth mentioning that Python has numerous modules and that these modules define their own group of functions. All of these function are not readily available until you import the module into your program. Again, we won't cover this here in this Dojo, but they can be very useful when building out larger programs. 
+
+***CHALLENGE:*** Challenge Goes Here.
