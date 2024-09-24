@@ -1,0 +1,7 @@
+name: Python Math
+challenges:
+  - id: math
+    name: Math Operators
+  - id: comparison
+    name: Comparison Operators
+

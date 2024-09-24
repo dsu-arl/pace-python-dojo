@@ -9,7 +9,7 @@ modules:
   - id: input-and-output
     name: Input and Output
   - id: math-operators
-    name: Math Operators
+    name: Python Math
   - id: conditionals
     name: Conditionals
   - id: loops
