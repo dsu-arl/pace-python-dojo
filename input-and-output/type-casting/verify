@@ -24,7 +24,7 @@ def run_and_check_script(user_script_path):
         exit()
 
     if not stdout.strip().endswith("22"):
-        print(f"Error: Wrong output, make sure you are typecasting and adding 7")
+        print(f"Error: Wrong output, make sure you are typecasting and adding 7 to the age. Also, ONLY print out the resulting age.")
         exit()
 
     print_flag()
