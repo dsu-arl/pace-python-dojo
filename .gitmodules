@@ -10,3 +10,6 @@
 [submodule "input-and-output/format-print/pacePythonTester"]
 	path = input-and-output/format-print/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "input-and-output/type-casting/pacePythonTester"]
+	path = input-and-output/type-casting/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
