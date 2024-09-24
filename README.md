@@ -16,19 +16,19 @@
     - [ ] Variables
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
+        - [x] Verify Script
     - [ ] Format Printing
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
+        - [x] Verify Script
     - [ ] User Input
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
+        - [x] Verify Script
     - [ ] Type Casting
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
+        - [x] Verify Script
 - [ ] Math
     - [ ] Math Operators
         - [x] Description
