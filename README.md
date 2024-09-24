@@ -77,6 +77,27 @@
         - [ ] Challenge
         - [ ] Verify Script    
 - [ ] Functions
-    - [ ] Function Challenge
-        - [ ] Description
+    - [ ] Built-in Functions
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script 
+    - [ ] Built-in Module Functions
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script 
+    - [ ] User-defined Functions
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Calling Functions
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Function Arguments
+        - [x] Description
+        - [ ] Challenge
+        - [ ] Verify Script
+    - [ ] Function Return Values
+        - [x] Description
+        - [ ] Challenge
         - [ ] Verify Script
