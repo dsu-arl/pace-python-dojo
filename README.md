@@ -29,7 +29,7 @@
         - [x] Description
         - [x] Challenge
         - [ ] Verify Script
-- [ ] Math Operators
+- [ ] Math
     - [ ] Math Operators
         - [x] Description
         - [ ] Challenge
