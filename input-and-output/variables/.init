@@ -1,3 +1,0 @@
-#!/run/dojo/bin/bash
-
-PATH="$PATH:/challenge"
