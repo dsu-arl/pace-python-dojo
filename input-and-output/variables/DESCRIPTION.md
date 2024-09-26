@@ -3,14 +3,14 @@ Programming is so much more than printing things to the screen. We need to learn
 Python makes this super simple, as it doesn't care about defining the type of the variable. That is to say, you give python what you want to store and it just handles it, whereas some languages require you to explicitly declare what type it is beforehand.
 
 For the sake of this lesson we only care about Integers (whole numbers), Floats (decimal point numbers), and Strings (words/sentences). Here is how we declare each:
-```
+```python
 counter = 1000          # creates an integer numeric variable
 total = 1024.67		    # creates a float numeric variable
-name = "The Rizzler" 	# Creates a string variable
+name = "The Rizzler" 	# creates a string variable
 ```
-Later we will learn how to use these variable throughout the program, but for now we are only concerned about declaring them correctly. The easiest way to verify varables is to print them to the screen. Thankfully, Python makes this super easy. We will use the same method (`print()`) we used in Level 1, but pass the variables into it instead of hardcoding a string.
+Later we will learn how to use these variables throughout the program, but for now we are only concerned about declaring them correctly. The easiest way to verify variables is to print them to the screen. Thankfully, Python makes this super easy. We will use the same method (`print()`) we used in Level 1, but pass the variables into it instead of hardcoding a string.
 
-```
+```python
 print(counter)
 print(total)
 print(name)
