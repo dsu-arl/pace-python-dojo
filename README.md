@@ -37,7 +37,7 @@
     - [ ] Comparison Operators
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
+        - [x] Verify Script
 - [ ] Conditionals
     - [ ] If Statements
         - [x] Description
