@@ -28,4 +28,33 @@ else:
 print("Total: ", amount - discount)
 ```
 
-***Challenge:*** ENTER CHALLENGE HERE.
+#### Challenge:
+Use python to compare two numbers, printing the comparison result
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept two integers (x, y) from user input
+2. Write the python code to determine if x is greater than, equal to, or less than y and prints the result
+```bash
+# Example Running of the program
+python yourScript.py
+X: 15
+Y: 25
+x (15) is less than y(25)
+```
+```bash
+# Another Example Running of the program
+python yourScript.py
+X: 35
+Y: 25
+x (35) is greater than y(25)
+```
+```bash
+# Example Running of the program
+python yourScript.py
+X: 15
+Y: 15
+x (15) is equal to y(15)
+```
+
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`
