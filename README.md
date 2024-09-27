@@ -32,11 +32,11 @@
 - [ ] Math
     - [ ] Math Operators
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Comparison Operators
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
 - [ ] Conditionals
     - [ ] If Statements
