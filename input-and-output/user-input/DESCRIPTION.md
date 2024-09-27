@@ -1,7 +1,7 @@
 Now that you understand variables, it is important to learn how to change them on the fly. This allows your program to be interactive, and can be accomplished by using user input. 
 
 Starting with what you already know, you should be able to understand what the following does:
-```
+```python
 name = "The Rizzler"
 location = "Ohio"
 
@@ -16,20 +16,20 @@ When the program encounters the `input()` function, it will wait for the user to
 
 *Can we have multiple flags in a single level??*
 Change the code above to make use of Python's `input()` function and allow the user to enter their name and location.
-```
+```python
 name = input()
 location = input()
 
 print("Hello, my name is", name)
 print("I am from", location)
 ```
-Now the variables are not assigned a specific value until runtime, Every time this program is run different values can be inputed. So, the program has become truly interactive. But it brings up a couple of questions.
+Now the variables are not assigned a specific value until runtime. Every time this program is run different values can be inputed. So, the program has become truly interactive. But it brings up a couple of questions.
 
 ***How does the user know the program is waiting for input?***
 The user will have no idea that the program is waiting for input. If they know what the program is supposed to be doing, it will probably be fine. But if they don't, it might appear as though the program is hanging or not responding. You can alert the user by providing a text prompt. This could be as simple as a print statement before the input line or by passing a prompt string to the input function.
 
-These will effectively accomplish the same thing. Note: If the prompt is a seperate print line before the input call, the program will display these on two lines. If you pass the prompt to the input function, the program will display both of these on the same line. 
-```
+These will effectively accomplish the same thing. Note: If the prompt is a separate print line before the input call, the program will display these on two lines. If you pass the prompt to the input function, the program will display both of these on the same line. 
+```python
 print("Enter your name:")
 name = input()
   
@@ -41,12 +41,12 @@ Use python to read a user's name and tell them Hello
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept a name from the user
-2. Print `Hello,` name for the user
+3. Print `Hello,` name for the user
 ```bash
 # Example Running of the program
 python yourScript.py
 What is your name: Greg
 Hello, Greg
 ```
-3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Test your code with `python yourFile.py`
+5. Verify your solution with `verify yourFile.py`
