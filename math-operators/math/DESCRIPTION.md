@@ -14,4 +14,11 @@ Every operator is should be familiar with you besides Modulus and Floor Division
 
 Floor division is rather straight forward. It is just like division, but will round down if there is a remainder. For example, `5//2` would return `2`, whereas `5/2` would return `2.5`. 
 
-***CHALLENGE:*** Challenge Goes Here.
+#### Challenge:
+Use python to print the text 'Hello World!' to the screen.
+
+1. Create a new file with the file extension `.py`
+2. Write the python code to get a number from the user (Don't forget to typecast)
+3. Use modulus to show if the number is odd or even by printing a 1 (odd) or 0 (even) *(Remember even numbers are always divisible by two)*
+4. Test your code with `python yourFile.py`
+5. Verify your solution with `verify yourFile.py`

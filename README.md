@@ -32,20 +32,20 @@
 - [ ] Math
     - [ ] Math Operators
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Comparison Operators
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
 - [ ] Conditionals
     - [ ] If Statements
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] If-Else Statements
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Nested Conditionals
         - [x] Description
@@ -53,7 +53,7 @@
         - [ ] Verify Script
     - [ ] Else-If Blocks
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Logical Operators
         - [x] Description

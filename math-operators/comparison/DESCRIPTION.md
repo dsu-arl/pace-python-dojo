@@ -9,4 +9,11 @@ Programming involves alot more than just doing math on numbers. Another importan
 | >= | Greater Than or Equal to | `a>=b`, returns `true` if `a` is greater than or equal to `b` |
 | <= | Less Than or Equal to | `a<=b`, returns `true` if `a` is less than or equal to `b` |
 
-***CHALLENGE:*** Challenge Goes Here.
+#### Challenge:
+Use python to print the text 'Hello World!' to the screen.
+
+1. Create a new file with the file extension `.py`
+2. Write the python code to read in two numbers from a user
+3. Use **comparison operators** to print **True**, if the first number is less than or equal to the second number. If this is not the case, print False
+4. Test your code with `python yourFile.py`
+5. Verify your solution with `verify yourFile.py`
