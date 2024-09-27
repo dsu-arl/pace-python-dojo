@@ -19,4 +19,27 @@ if amount > 1000:
 print("Total: {}".format(amount-discount))
 ```
 
-***Challenge:*** ENTER CHALLENGE HERE.
+#### Challenge:
+Use python to determine if a number is greater than another number
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept two integers (x, y) from user input
+2. Write the python code that prints only if y is greater than x entered  
+```bash
+# Example Running of the program
+python yourScript.py
+X: 15
+Y: 23
+23 is greater than 15
+```
+
+```bash
+# Another Example
+pyton yourScript.py
+X: 15
+Y: 5
+
+```
+
+3. Test your code with `python yourFile.py`
+4. Verify your solution with `verify yourFile.py`
