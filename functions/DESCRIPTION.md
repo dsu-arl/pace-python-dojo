@@ -4,7 +4,9 @@ Functions are a way to organize code, specifically a block of code, so it can be
 
 Python provides three different types of functions:
 - Built-in Functions
+  - Python provides a handful of built-in functions,some of which you have already been introduced to. `Print()`, `len()`, `int()`, etc. are all examples of these. They are always available to you as a Python programmer as they get loaded into memory as soon as you execute the Python interpreter. 
 - Built-in Module Functions
+  - This concerns you less, as we haven't introduced modules to you yet and we don't include any external modules in this Dojo. But, it is worth mentioning that Python has numerous modules and that these modules define their own group of functions. All of these function are not readily available until you import the module into your program. Again, we won't cover this here in this Dojo, but they can be very useful when building out larger programs. 
 - User-defined Functions
 
-This module is all about learning Python functions. Topics to be covered: Built-in Functions, Module Functions, User-Defined Functions, Calling Functons, Arguments, and Return Values.
+This module is all about learning Python functions. Topics to be covered: User-Defined Functions, Calling Functions, Arguments, and Return Values.
