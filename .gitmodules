@@ -16,3 +16,6 @@
 [submodule "math-operators/math/pacePythonTester"]
 	path = math-operators/math/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "math-operators/comparison/pacePythonTester"]
+	path = math-operators/comparison/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester

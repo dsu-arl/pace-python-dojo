@@ -29,12 +29,12 @@
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
-- [ ] Math
-    - [ ] Math Operators
+- [x] Math
+    - [x] Math Operators
         - [x] Description
         - [x] Challenge
-        - [ ] Verify Script
-    - [ ] Comparison Operators
+        - [x] Verify Script
+    - [x] Comparison Operators
         - [x] Description
         - [x] Challenge
         - [x] Verify Script
