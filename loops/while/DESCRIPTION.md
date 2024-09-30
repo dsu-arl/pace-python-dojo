@@ -18,4 +18,25 @@ while count < 5:
 print("End of while loop")
 ```
 
-***CHALLENGE:*** Enter Challenge Here.
+#### Challenge:
+Use python to write a Count Down program
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept an integer from the user
+3. Write a program that then counts down from the given number to 1, printing each number on a newline
+4. The program should stop when it reaches 1 and then print "Blast Off!"
+
+```bash
+# Example Running of the program
+python yourScript.py
+Enter A Number: 5
+5
+4
+3
+2
+1
+Blast Off!
+```
+
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `verify yourFile.py`

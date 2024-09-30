@@ -35,4 +35,24 @@ Running the code above will output the following:
 1 3 5 7 9
 ```
 
-***CHALLENGE:*** Enter Challenge Here.
+#### Challenge:
+Use python to write a program that prints even number
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept a positive integer from the user
+3. Write python, using a `for()` loop, that iterates through the range 1 to the given number
+4. Print each even number
+
+```bash
+# Example Running of the program
+python yourScript.py
+Enter A Number: 10
+2
+4
+6
+8
+10
+```
+
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `verify yourFile.py`
