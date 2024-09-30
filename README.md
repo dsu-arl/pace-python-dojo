@@ -49,7 +49,7 @@
         - [ ] Verify Script
     - [ ] Nested Conditionals
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Else-If Blocks
         - [x] Description
@@ -57,7 +57,7 @@
         - [ ] Verify Script
     - [ ] Logical Operators
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Scripts  
 - [ ] Loops
     - [ ] While Loops
