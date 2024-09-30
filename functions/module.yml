@@ -2,8 +2,6 @@ name: Functions
 challenges:
   - id: user-defined
     name: User-defined Functions
-  - id: calling
-    name: Calling Functions
   - id: function-arguments
     name: Function Arguments
   - id: return-values
