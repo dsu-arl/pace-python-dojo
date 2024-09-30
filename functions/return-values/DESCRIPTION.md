@@ -30,4 +30,26 @@ a=1, b=2, c=7, a+b+c=10
 ```
 
 
-***CHALLENGE:*** Challenge Goes Here.
+#### Challenge:
+Use python to write a basic calculator function
+
+1. Create a new file with the file extension `.py`
+2. Write python to accept two integers from the user
+3. Write python, using a function, that requires three parameters: number1, number2, and operation. 
+   1. Your calculator should support these operations: add, subtract, multiply, divide
+   2. Return the result or an error message if the user attempts division by zero
+   3. Print the result outside the function
+4. Call this function once for each supported operation
+
+```bash
+# Example Running of the program
+python yourScript.py
+Number 1: 13
+Number 2: 12
+25
+1
+156
+1.08
+```
+5. Test your code with `python yourFile.py`
+6. Verify your solution with `verify yourFile.py`
