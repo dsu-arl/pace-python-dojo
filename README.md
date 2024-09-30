@@ -66,11 +66,11 @@
         - [ ] Verify Script
     - [ ] Python Lists
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] Range Function
         - [x] Description
-        - [ ] Challenge
+        - [x] Challenge
         - [ ] Verify Script
     - [ ] For Loops
         - [x] Description
