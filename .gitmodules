@@ -19,3 +19,18 @@
 [submodule "math-operators/comparison/pacePythonTester"]
 	path = math-operators/comparison/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "conditionals/else-if-blocks/pacePythonTester"]
+	path = conditionals/else-if-blocks/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "conditionals/if-else-statements/pacePythonTester"]
+	path = conditionals/if-else-statements/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "conditionals/if-statements/pacePythonTester"]
+	path = conditionals/if-statements/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "conditionals/logical-operators/pacePythonTester"]
+	path = conditionals/logical-operators/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "conditionals/nested/pacePythonTester"]
+	path = conditionals/nested/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
