@@ -11,6 +11,6 @@ range(start, stop, step)
 #### Challenge:
 Use python to see the different outputs of the `range()` command
 1. Create a new file with the file extension `.py`
-2. Write python to create 3 different `range()` calls, trying t use different start, stop, and step values.
+2. Write python to create 3 different `range()` calls, trying to use different start, stop, and step values.
 3. Test your solution with `python yourFile.py`
 4. Verify your solution with `verify yourFile.py`
