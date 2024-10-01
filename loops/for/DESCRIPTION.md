@@ -22,6 +22,7 @@ print("Total: ", total)
 '''
 Fun tip!
 You can use end='' to change how python prints, the default is end='\n' to print a special secret newline character
+You won't need to use this for this challenge, we just didn't want you to have to scroll alot to read the example output :)
 '''
 
 for number in range(5):
