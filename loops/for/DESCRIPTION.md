@@ -49,8 +49,8 @@ Use python to write a program that prints even number
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept a positive integer from the user
-3. Write python, using a `for()` loop, that iterates through the range 1 to the given number
-4. Print each even number
+3. Write python, using a `for()` loop, that iterates through the range **starting at 0** to the given number
+4. **Print only even numbers** up until the user specified number
 
 ```bash
 # Example Running of the program
