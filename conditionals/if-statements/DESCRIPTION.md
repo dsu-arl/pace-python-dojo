@@ -20,7 +20,7 @@ print("Total: {}".format(amount-discount))
 ```
 
 #### Challenge:
-Use python to determine if a number is greater than another number
+Use python to determine which number is greater than another number. *Remember that if an if statement doesn't evaluate to True, then the inside code doesn't run!*
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept two integers (x, y) from user input
@@ -38,7 +38,7 @@ Y: 23
 pyton yourScript.py
 X: 15
 Y: 5
-
+15 is greater than 5
 ```
 
 3. Test your code with `python yourFile.py`
