@@ -19,20 +19,28 @@ print("Total: ", total)
 
 **Examples of a Python For Loop with different `range()` Parameters:**
 ```
+'''
+Fun tip!
+You can use end='' to change how python prints, the default is end='\n' to print a special secret newline character
+'''
+
 for number in range(5):
-	print(number)
-  
+	print(number, end=' ')
+print() # Print an empty line
+
 for number in range(10, 20):
-	print(number)
+	print(number, end=' ')
+print() # Print an empty line
   
 for number in range(1, 10, 2):
-	print(number)
+	print(number, end=' ')
+print() # Print an empty line
 ```
 Running the code above will output the following:
 ```  
-0 1 2 3 4
-10 11 12 13 14 15 16 17 18 19
-1 3 5 7 9
+0 1 2 3 4 
+10 11 12 13 14 15 16 17 18 19 
+1 3 5 7 9 
 ```
 
 #### Challenge:
