@@ -34,3 +34,15 @@
 [submodule "conditionals/nested/pacePythonTester"]
 	path = conditionals/nested/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "loops/while/pacePythonTester"]
+	path = loops/while/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "loops/for/pacePythonTester"]
+	path = loops/for/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "loops/lists/pacePythonTester"]
+	path = loops/lists/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "loops/range/pacePythonTester"]
+	path = loops/range/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
