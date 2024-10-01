@@ -49,9 +49,6 @@
 [submodule "functions/user-defined/pacePythonTester"]
 	path = functions/user-defined/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
-[submodule "functions/return-values/pacePythonTester"]
-	path = functions/return-values/pacePythonTester
-	url = https://github.com/dsu-arl/pacePythonTester
 [submodule "functions/function-arguments/pacePythonTester"]
 	path = functions/function-arguments/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
