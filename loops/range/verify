@@ -23,10 +23,6 @@ def run_and_check_script(user_script_path):
         print("Error:", e)
         exit()
 
-    if stderr is not None or stderr != "":
-        print("Error: Make sure your code can run properly!")
-        exit()
-
     with open(user_script_path,'r') as f:
         content = f.read()
 
