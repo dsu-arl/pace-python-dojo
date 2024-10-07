@@ -8,7 +8,7 @@ counter = 1000          # creates an integer numeric variable
 total = 1024.67		    # creates a float numeric variable
 name = "The Rizzler" 	# creates a string variable
 ```
-Later we will learn how to use these variables throughout the program, but for now we are only concerned about declaring them correctly. The easiest way to verify variables is to print them to the screen. Thankfully, Python makes this super easy. We will use the same method (`print()`) we used in Level 1, but pass the variables into it instead of hardcoding a string.
+Later we will learn how to use these variables throughout the program, but for now we are only concerned about declaring them correctly. The easiest way to verify variables is to print them to the screen. Thankfully, Python makes this super easy. We will use the same method (`print()`) we used in the Printing Text challenge, but pass the variables into it instead of hardcoding a string.
 
 ```python
 print(counter)
