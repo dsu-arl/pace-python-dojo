@@ -17,7 +17,7 @@ def run_and_check_script(user_script_path):
 
     # Run their program with the test case of Greg
     try:
-        stdout, stderr = ex.run(user_script_path, input="Greg\n")
+        stdout, stderr = ex.run(user_script_path)
     except TypeError as e:
         """ Issue with noneType return """
         print("Error:", e)
