@@ -16,7 +16,7 @@ def print_flag():
 def run_and_check_script(user_script_path):
 
     for a in [1,2,3,4,5]:
-        answer = a % 2
+        answer = str(a % 2)
 
         # Run their program with the test case
         try:
@@ -26,7 +26,7 @@ def run_and_check_script(user_script_path):
             print("Error:", e)
             exit()
 
-        if not stdout.strip().endswith(str(answer)):
+        if not stdout.strip().endswith(answer):
             print(f"Error: Make sure that you print 1 if the number is ODD and 0 if the number is EVEN, consider using the modulus operator %")
             exit()
 
