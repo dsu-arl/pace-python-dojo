@@ -16,7 +16,7 @@ def print_flag():
 def run_and_check_script(user_script_path):
 
     for a in [1,2,3,4,5]:
-        answer = a % 2
+        answer = str(a % 2)
 
         # Run their program with the test case
         try:
