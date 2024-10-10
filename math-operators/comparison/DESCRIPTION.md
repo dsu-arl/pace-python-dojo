@@ -10,7 +10,7 @@ Programming involves alot more than just doing math on numbers. Another importan
 | <= | Less Than or Equal to | `a<=b`, returns `true` if `a` is less than or equal to `b` |
 
 #### Challenge:
-Use python to print the text 'Hello World!' to the screen.
+Use python to read two numbers from the user and detect if the first number is smaller than the second.
 
 1. Create a new file with the file extension `.py`
 2. Write the python code to read in two numbers from a user
