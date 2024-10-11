@@ -1,10 +1,10 @@
 Lets put your skills to the test! There are many common formulas that mathematicians need to memorize! In geometry, for example...
 
-**Finding the Area of shapes**
-Circle: π*r<sup>2</sup>
-Square: s<sup>2</sup>
-Triangle: 0.5 * b * h
-Trapezoid: ((a + b) / 2) * h
+**Finding the Area of shapes**  
+Circle: π*r<sup>2</sup>   
+Square: s<sup>2</sup>  
+Triangle: 0.5 * b * h  
+Trapezoid: ((a + b) / 2) * h  
 
 #### Challenge:
 Use python to read in the width and height of a triangle, then calculate and print the area.
