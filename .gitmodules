@@ -55,3 +55,9 @@
 [submodule "functions/return-values/pacePythonTester"]
 	path = functions/return-values/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "math-operators/triangles/pacePythonTester"]
+	path = math-operators/triangles/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "math-operators/geometry/pacePythonTester"]
+	path = math-operators/geometry/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
