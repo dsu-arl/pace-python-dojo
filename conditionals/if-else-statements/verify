@@ -29,12 +29,12 @@ def run_and_check_script(user_script_path):
             print("Error:", e)
             exit()
 
-        if not stdout.strip().search(correct):
+        if not re.search(correct, stdout.strip()):
             print(f"Error: Make sure that you are printing if the number is 'odd' or 'even'")
             exit()
 
         # Make sure they aren't just printing both odd and even
-        if stdout.strip().search(incorrect):
+        if re.search(incorrect, stdout.strip()):
             print(f"Error: You must print 'odd' or 'even' for the number, not both")
             exit()
 
