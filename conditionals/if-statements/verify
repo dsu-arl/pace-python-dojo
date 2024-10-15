@@ -31,7 +31,7 @@ def run_and_check_script(user_script_path):
             print("Error:", e)
             exit()
 
-        if not stdout.strip().endwith(smol):
+        if not stdout.strip().endswith( str(smol) ):
             print(f"Error: Make sure that you are printing like this '{big} is greater than {smol}'")
             exit()
 
