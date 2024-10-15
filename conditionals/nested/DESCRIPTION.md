@@ -31,13 +31,13 @@ print("Amount: ", amount)
 if amount > 10000:
 	discount = amount * 20 / 100
 else:
-	if amount > 5000:
+    if amount > 5000:
   	discount = amount * 10 / 100
-  else:
-  	if amount  > 1000:
-    	discount = amount * 5 / 100
     else:
-     	discount = 0
+  	if amount  > 1000:
+    	    discount = amount * 5 / 100
+        else:
+     	    discount = 0
 
 print("Total: ", amount - discount)
 ```
@@ -86,4 +86,4 @@ Error: Withdraw Amount Must Be a Multiple of 20
 ```
 
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
