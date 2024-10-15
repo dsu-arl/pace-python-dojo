@@ -7,7 +7,7 @@ if EXPRESSION:
 else:
 	# statement(s) to be executed if EXPRESSION is false
 ```
-If the expression evalues to `true`, then the statement(s) inside of the `if` block are executed. If the expression evaluates to `false`, then the code inside of the `else` block are executed.
+If the expression evaluates to `true`, then the statement(s) inside of the `if` block are executed. If the expression evaluates to `false`, then the code inside of the `else` block are executed.
 
 **Example of Python `if-else` statement:**
 ```
@@ -33,4 +33,4 @@ Enter a number: 15
 15 is odd
 ```
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
