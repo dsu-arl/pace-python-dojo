@@ -57,4 +57,4 @@ x (15) is equal to y(15)
 ```
 
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
