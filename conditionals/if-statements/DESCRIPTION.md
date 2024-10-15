@@ -1,5 +1,7 @@
 An **if statement** in Python evaluates if some conditional is `true` or `false`. It contains a logical expression that compares some data (variables, program state, etc.), and a decision is made based on the result of that expression. 
 
+We use if statements all the time in real life! `if` you workout, `then` you experience health benefits. `if` you're on Santa's nice list, `then` you get gifts at Christmas.
+
 #### Python `if` statement syntax:
 ```
 if EXPRESSION:
@@ -24,7 +26,7 @@ Use python to determine which number is greater than another number. *Remember t
 
 1. Create a new file with the file extension `.py`
 2. Write python to accept two integers (x, y) from user input
-2. Write the python code that prints only if y is greater than x entered  
+2. Write the python code that prints which number is greater.
 ```bash
 # Example Running of the program
 python yourScript.py
@@ -42,4 +44,4 @@ Y: 5
 ```
 
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `verify yourFile.py`
+4. Verify your solution with `/challenge/verify yourFile.py`
