@@ -35,13 +35,13 @@ def run_and_check_script(user_script_path):
             print("Error:", e)
             exit()
 
-        if not stdout.strip().search(correct):
+        if not re.search(correct, stdout.strip()):
             print(f"Error: Make sure that you are printing '{correct}' exactly!")
             exit()
 
         # This is to ensure that they are only printing one answer for each itteration of the program 
         for possible in incorrect:
-            if stdout.strip().search(possible):
+            if re.search(possible, stdout.strip()):
                 print(f"Error: Make sure to only print the correct response")
                 exit()
 
