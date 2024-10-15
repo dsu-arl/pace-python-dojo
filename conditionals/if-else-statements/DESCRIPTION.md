@@ -33,4 +33,4 @@ Enter a number: 15
 15 is odd
 ```
 3. Test your code with `python yourFile.py`
-4. Verify your solution with `/challenge/verify yourFile.py`
+4. Verify your solution with `verify yourFile.py`
