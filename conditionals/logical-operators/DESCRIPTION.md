@@ -5,7 +5,7 @@ Lastly, Python also supports **logical operators**, these allow you to combine t
 | and | AND | CONDITIONAL1 and CONDITIONAL2 |
 | or | OR | CONDITIONAL1 or CONDITIONAL2 |
 
-**Example ofPython Logical Operators:**
+**Example of Python Logical Operators:**
 ```
 number = 5
 print(var > 3 and var < 10)
@@ -13,6 +13,25 @@ print(var > 3 or var < 4)
 ```
 
 One thing to note, logical operators can be used inside of `if` and `elif` conditionals. If you use `and` the statement evaluates to `true` only if all the conditionals are `true`. If you use `or` the statement evaluates to `true` if one of the conditionals is `true`.
+
+This examle shows how `and` and `or` can be used inside if statements to compare if two numbers are greater than 0 or not.
+```
+number_one = 5
+number_two = 12
+
+if number_one > 0 and number_two > 0:
+    print("Both numbers are greater than 0!")
+elif number_one > 0 or number_two > 0:
+    print("At least one of the numbers is greater than 0!")
+elif number_one > 0 and number_two <= 0:
+    print("Number one is greater than 0!")
+elif number_one <= 0 and number_two > 0:
+    print("Number two is greater than 0!")
+elif number_one <= 0 or number_two <= 0:
+    print("At least one of the numbers is less than 0!")
+else:
+    print("Neither number is greater than 0!")
+```
 
 #### Challenge:
 Use python to write a Student Classification System
@@ -40,5 +59,5 @@ Student is a Failing Student
 ```
 
 5. Test your code with `python yourFile.py`
-6. Verify your solution with `verify yourFile.py`
+6. Verify your solution with `/challenge/verify yourFile.py`
 
