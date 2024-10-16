@@ -1,8 +1,9 @@
 The first thing to learn when programming is how to print information to the screen, as a program is only useful if you can see its results. In Python to print to the screen, we will use the `print()` function (we will cover functions in more detail later).
 
 #### Print Syntax:
+Text that you want to print, must be in quotes. Later, we will show you how to print other things too!
 ```python
-print(STRING MESSAGE TO PRINT)
+print("STRING MESSAGE TO PRINT")
 ```
 
 
