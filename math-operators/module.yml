@@ -4,6 +4,4 @@ challenges:
     name: Math Operators
   - id: comparison
     name: Comparison Operators
-  - id: type-casting
-    name: Type Casting
 
