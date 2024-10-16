@@ -16,7 +16,7 @@ def print_flag():
 def run_and_check_script(user_script_path):
     for a in [5,10]:
         # Make sure that they print all the numbers as a countdown
-        text = re.compile('\n'.join([str(i) for i in range(0,a,2)]), re.IGNORECASE)
+        text = re.compile('\n'.join([str(i) for i in range(0,a+1,2)]), re.IGNORECASE)
 
         # Run their program with the test case of Greg
         try:
@@ -28,7 +28,11 @@ def run_and_check_script(user_script_path):
 
         # Set up to match all cases of Hello, Greg!
         if not text.search(stdout.strip()):
-            print("Error: Make sure you print ONLY even numbers up to the input number starting at 0!")
+            print("Error: Program did not print even numbers up to the input number starting at 0!")
+            if '0\n2\n' not in stdout:
+                print("Hint: Make sure you start at 0!")
+            elif str(a) not in stdout:
+                print("Hint: You're missing the last number. Check your range() function!")
             exit()
 
         # Also, verify that they used the text while in the file
