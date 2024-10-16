@@ -1,8 +1,8 @@
 ***Input is only stored in strings, but how do we do math on strings?***
-For example, how would we add 5 to the user's age? With the knowledge we've gained so far, we may try something like this:
+For example, how would we add 7 to the user's age? With the knowledge we've gained so far, we may try something like this:
 ```python
 age = input("Enter your age: ")
-future_age = age + 5
+future_age = age + 7
 print("Age in the future", future_age)
 ```
 
@@ -14,7 +14,7 @@ The `int()` function takes a string variable, and gives you the integer value st
 ```python
 age = input("Enter your age: ") # read in as a string
 age = int(age) # type cast to an int
-future age = age + 5 # do some math
+future age = age + 7 # do some math
 print("Age in the future", future_age) # print updated value
 ```
 
@@ -22,7 +22,7 @@ A shorter way to type the same thing:
 ```python
 # read in as a string, then immediately cast to an int
 age = int(input("Enter your age: ")) 
-future_age = age + 5
+future_age = age + 7
 print("Age in the future", future_age)
 ```
 
