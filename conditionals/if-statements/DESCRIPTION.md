@@ -23,8 +23,8 @@ print("Total: {}".format(amount-discount))
 Use python to determine which number is greater than another number. *Remember that if an if statement doesn't evaluate to True, then the inside code doesn't run!*
 
 1. Create a new file with the file extension `.py`
-2. Write python to accept two integers (x, y) from user input
-2. Write the python code that prints only if y is greater than x entered  
+2. Write python code to accept two integers (x, y) from user input
+2. Write python code that prints out which number is larger, using `if` statements.
 ```bash
 # Example Running of the program
 python yourScript.py
@@ -35,7 +35,7 @@ Y: 23
 
 ```bash
 # Another Example
-pyton yourScript.py
+python yourScript.py
 X: 15
 Y: 5
 15 is greater than 5
