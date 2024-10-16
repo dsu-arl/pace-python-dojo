@@ -30,7 +30,8 @@ Try printing out your variables, and verify that they are exactly the same as wh
 
 
 #### Challenge:
-Use python to create 3 variables. They can have any name, and any data stored in them. Maybe try saving your name, age, and GPA!
+Use python to create 3 variables. They can have any name, and any data stored in them. Maybe try saving your name, age, and GPA! 
+After creating and storing data in them, print them all out!
 
 1. Create a new file with the file extension `.py`
 2. Write python to create 3 variables and print them to the screen
