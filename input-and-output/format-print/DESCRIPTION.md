@@ -1,4 +1,4 @@
-Sometimes when we print, we want to include some more information instead of just the value stored in a variable. This can be accomplished in a couple different ways. The first way is simply adding multiple strings and variables together. A string of words needs to be wrapped in quotation marks "like this", and then variables can be printed by just including the variable name. We need to use commas to separate each thing we want to print. 
+Sometimes when we print, we want to include some more information instead of just the value stored in a variable. This can be accomplished in a couple different ways. The first way is simply adding multiple strings and variables together. A string of words needs to be wrapped in quotation marks "like this." Variables can be printed by just including the variable name. We need to use commas to separate each thing we want to print. 
 
 Using the `name` variable we defined in the previous challenge, we could print a message before we print the value of `name` by doing something like this:
 ```python
@@ -9,7 +9,7 @@ When run, the program will output the following:
 Name is defined as The Rizzler
 ```
 
-This is rather straightforward, but can become messy quickly if printing multiple variables and messages. The other way we could accomplish this is by using a **format string**. This requires some different pieces: the variable place holders `{}`, the `.format()` function call, and the variables to be printed. Each placeholder `{}` is where a value will be printed. The order of your variables matters here - the first variable will print where the first placeholder is in your string.
+This is rather straightforward, but can become messy quickly if printing multiple variables and messages. The other way we could accomplish this is by using a **format string**. This requires some different pieces: the variable placeholders `{}`, the `.format()` function call, and the variables to be printed. Each placeholder `{}` is where a value will be printed. The order of your variables matters here - the first variable will print where the first placeholder is in your string.
 
 If we put it all together, we can create some interactive prints. Using variables we defined previously, let's build out a format string:
 ```python
