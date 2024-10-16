@@ -28,12 +28,12 @@ def run_and_check_script(user_script_path):
 
         # Set up to match all cases of Hello, Greg!
         if not text.search(stdout.strip()):
-            print(f"Error: Make sure that you are printing ONLY even numbers starting at 0 and ending at {a}!")
+            print("Error: Make sure you print ONLY even numbers up to the input number starting at 0!")
             exit()
 
         # Also, verify that they used the text while in the file
         if not ex.parse_script(user_script_path, "for"):
-            print(f"Error: Make sure that you are using for to print your numbers!")
+            print("Error: Make sure that you are using for to print your numbers!")
             exit()
 
     print_flag()
