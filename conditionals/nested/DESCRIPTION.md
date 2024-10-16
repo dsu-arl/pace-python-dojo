@@ -1,4 +1,4 @@
-Python also supports **nested conditional statements** which basically we can use an `if` or `if-else` statement inside of an existing `if` or `if-else` statement.
+Python also supports **nested conditional statements** which means we can use an `if` or `if-else` statement inside of an existing `if` or `if-else` statement.
 
 #### Python Nested Conditional Statement Syntax:
 ```
@@ -48,11 +48,11 @@ Use python to write a simple ATM system
 1. Create a new file with the file extension `.py`
 2. Write python code that gets two integers from the user (current balance, and amount to withdraw)
 3. Write a simple python ATM system, using nested conditionals, that can do the following:
-   1. If a user requests to withdraw an amount greater than their current balance, return an insufficient funds message
-   2. If a user requests to withdraw a negative amount, return an error message
-   3. If the user requests to withdraw an amount that is not a multiple of 20, return an error message
-   4. If the withdrawal is successful, deduct the amount from the balance and return the new balance
-4. Write the python code that returns a message indicating the result of the transaction  
+   1. If a user requests to withdraw an amount greater than their current balance, print an insufficient funds message
+   2. If a user requests to withdraw a negative amount, print an error message
+   3. If the user requests to withdraw an amount that is not a multiple of 20, print an error message
+   4. If the withdrawal is successful, deduct the amount from the balance and print the new balance
+4. Write the python code that print a message indicating the result of the transaction
 ```bash
 # Example Running of the program
 python yourScript.py
