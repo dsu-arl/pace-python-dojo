@@ -35,7 +35,7 @@ Y: 23
 
 ```bash
 # Another Example
-pyton yourScript.py
+python yourScript.py
 X: 15
 Y: 5
 15 is greater than 5
