@@ -7,5 +7,5 @@ This module is all about learning Python Loops.
 Topics to be covered: 
 - While Loops
 - Introduction to Python Lists
-- `Range()` Function
+- `range()` Function
 - For Loops.
