@@ -1,2 +1,1 @@
-This is an [example dojo](https://github.com/pwncollege/example-dojo).
-Fork this repository, and create your own dojo!
+Welcome to the python dojo! You will learn how to use the python programming language to display information, store data, control the flow of your programs, and more.

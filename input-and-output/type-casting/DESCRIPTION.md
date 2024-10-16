@@ -1,21 +1,32 @@
 ***Input is only stored in strings, but how do we do math on strings?***
-Python does not have the ability to do math on strings. So if you're expecting the user to input a numeric value, it will have to be converted to be used throughout the rest of the program. Thankfully, Python allows type casting and makes this process very easy. 
-
+For example, how would we add 7 to the user's age? With the knowledge we've gained so far, we may try something like this:
 ```python
 age = input("Enter your age: ")
 future_age = age + 7
 print("Age in the future", future_age)
 ```
 
-If you were to run the code above you would likely encouter a `TypeError`. If we see what the program is doing, we can most likely assume that age is an integer and the input we get from the user will be an integer. You can simply cast it to an integer using the `int()` function. 
+Unfortunately, if you were to run the code above you would likely encouter a `TypeError`. 
+This is because Python does not have the ability to do math on strings. So if you're expecting the user to input a numeric value, it will have to be converted from a group of _characters_ into a _number_, which can then be used throughout the rest of the program. Thankfully, Python allows "type casting" and makes this process very easy. 
+In the example above, we can most likely assume that `age` is an integer (a whole number) and the input we get from the user will need to be an integer. To convert `age` from the input string to an integer/numberical value, you can simply "cast" it to an integer using the `int()` function. 
+The `int()` function takes a string variable, and gives you the integer value stored in that string.
 
 ```python
-age = int(input("Enter your age: "))
+age = input("Enter your age: ") # read in as a string
+age = int(age) # type cast to an int
+future age = age + 7 # do some math
+print("Age in the future", future_age) # print updated value
+```
+
+A shorter way to type the same thing:
+```python
+# read in as a string, then immediately cast to an int
+age = int(input("Enter your age: ")) 
 future_age = age + 7
 print("Age in the future", future_age)
 ```
 
-Python will let you type cast other things as well. The ones you should be concerned about are `int()`, `float()`, and `str()`. 
+Python will let you type cast to other data types as well. The ones you should be concerned about are `int()`, `float()`, and `str()`. 
 
 #### Challenge:
 Use python to calculate a users age + 7
