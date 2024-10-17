@@ -58,3 +58,6 @@
 [submodule "math-operators/geometry/pacePythonTester"]
 	path = math-operators/geometry/pacePythonTester
 	url = https://github.com/dsu-arl/pacePythonTester
+[submodule "math-operators/floor-division/pacePythonTester"]
+	path = math-operators/floor-division/pacePythonTester
+	url = https://github.com/dsu-arl/pacePythonTester
