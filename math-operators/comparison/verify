@@ -16,7 +16,7 @@ def print_flag():
 def run_and_check_script(user_script_path):
 
     for a,b in [(1,2),(2,1),(1,1)]:
-        answer = a <= b
+        answer = str(a <= b)
 
         # Run their program with the test case
         try:
