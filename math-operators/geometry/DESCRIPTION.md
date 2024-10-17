@@ -26,7 +26,7 @@ Use python to read in the width and height of a triangle, then calculate and pri
 Note: The area will be a float data type! You can get user input as either ints or floats. Python will handle converting the types when you do the math!
 
 1. Create a new file with the file extension `.py`
-2. Write the python code to get two numbers from the user (triangle base and height)
+2. Write the python code to get two numbers from the user (triangle width and height)
 3. Use the formula to calculate the area of a triangle and print the result!
 ```bash
 # example output
