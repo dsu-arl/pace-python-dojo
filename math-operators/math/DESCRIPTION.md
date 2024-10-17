@@ -14,28 +14,17 @@ You likely have used every operator before - besides Modulus and Floor Division.
 
 Floor division is rather straight forward. It is just like division, but will round down if there is a remainder. For example, `5//2` would return `2`, whereas `5/2` would return `2.5`. 
 
-There are several different ways you can use these math operators, here are a few examples:
-
-You can use a separate variable to store the result...
+Here is an example of how you might use these math operators...
 ```python
 # add 2 numbers together
-x = int( input("Enter your first number: ") ) # type casting
-y = int( input("Enter your second number: ") ) # type casting
+x = int( input("Enter your first number: ") )
+y = int( input("Enter your second number: ") )
 
 sum = x + y
 print("{} + {} = {}".format(x, y, sum))
 ```
 
-Or you can use the `print()` function to perform the operation and print the result...
-```python
-# multiply 2 numbers together
-x = int( input("Enter your first number: ") ) # type casting
-y = int( input("Enter your second number: ") ) # type casting
-
-print("{} * {} = {}".format(x, y, x*y))
-```
-
-Either way, the output is the same:
+The output will look like this:
 ```bash
 # example output
 Enter your first number: 4
