@@ -48,7 +48,7 @@ Use python to let the user enter a number and detect if that number is odd or ev
 
 1. Create a new file with the file extension `.py`
 2. Write the python code to get a number from the user (Don't forget to typecast)
-3. Use modulus to show if the number is odd or even by printing a 1 (odd) or 0 (even) *(Remember even numbers are always divisible by two)*
+3. Use modulus to show if the number is odd or even. Your program should print `0` for even and `1` for odd. *(Remember even numbers are always divisible by two)*
 ```bash
 # example output
 Please enter a number: 5
