@@ -19,7 +19,7 @@ def run_and_check_script(user_script_path):
         odd = re.compile('odd', re.IGNORECASE)
         even = re.compile('even', re.IGNORECASE)
 
-        correct, incorrect = (even,odd) if a % 2 else (odd,even)
+        correct, incorrect = (odd,even) if a % 2 else (even,odd)
 
         # Run their program with the test case
         try:
