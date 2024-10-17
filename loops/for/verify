@@ -14,9 +14,11 @@ def print_flag():
         print("Error: Flag file not found.")
 
 def run_and_check_script(user_script_path):
-    for a in [5,10]:
+    for a in ['5','10']:
         # Make sure that they print all the numbers as a countdown
-        text = re.compile('\n'.join([str(i) for i in range(0,a+1,2)]), re.IGNORECASE)
+        text = re.compile('\n'.join([str(i) for i in range(0,int(a)+1,2)]), re.IGNORECASE)
+        zeroCheck = re.compile('^0', re.IGNORECASE)
+        topRangeCheck = re.compile(f'{a}$', re.IGNORECASE)
 
         # Run their program with the test case of Greg
         try:
@@ -27,17 +29,17 @@ def run_and_check_script(user_script_path):
             exit()
 
         # Set up to match all cases of Hello, Greg!
-        if not text.search(stdout.strip()):
+        if not re.search(text, stdout.strip()):
             print("Error: Program did not print even numbers up to the input number starting at 0!")
-            if '0\n2\n' not in stdout:
-                print("Hint: Make sure you start at 0!")
-            elif str(a) not in stdout:
-                print("Hint: You're missing the last number. Check your range() function!")
+            if not re.search(zeroCheck, stdout.strip()):
+                print("Error: Make sure you start at 0!")
+            elif not re.search(topRangeCheck, stdout.strip()):
+                print("Error: You're missing the last number. Make sure you are using n+1 for your range() function!")
             exit()
 
         # Also, verify that they used the text while in the file
         if not ex.parse_script(user_script_path, "for"):
-            print("Error: Make sure that you are using for to print your numbers!")
+            print("Error: Make sure that you are using a for loop to print your numbers!")
             exit()
 
     print_flag()
