@@ -16,6 +16,21 @@ When run this will display the following:
 My Output!!
 ```
 
+In addition to printing things to the screen, you sometimes need to add messages inside your code. This is called a comment. Comments can be useful to help explain Python code and make it more readable or to stop certain lines from executing. 
+
+#### Comment Syntax:
+```python
+# This is a comment
+```
+
+Comments start with a `#`, this is vital because it tells Python to ignore what follows. Comments can be placed on their own line, or at the end of existing lines.
+
+For example:
+```python
+# This is a greeting print statement
+print("GREETINGS USER!") # Another Comment, do you think this is a good greeting?
+```
+
 
 #### Challenge:
 Use python to print the text 'Hello World!' to the screen.
