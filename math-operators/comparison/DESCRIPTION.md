@@ -20,20 +20,20 @@ print("Checking if number is negative: ", x < 0) # print result without storing
 print("Checking if number is 0: ", x == 0)
 ```
 
-```bash
-# example output
+Here are some examples of what the output might look like...
+```
 Enter a number: 5
 Checking if number is positive:  True
 Checking if number is negative:  False
 Checking if number is 0:  False
-
-# example output
+```
+```
 Enter a number: -8
 Checking if number is positive:  False
 Checking if number is negative:  True
 Checking if number is 0:  False
-
-# example output
+```
+```
 Enter a number: 0
 Checking if number is positive:  False
 Checking if number is negative:  False
@@ -46,13 +46,15 @@ Use python to read two numbers from the user and detect if the first number is s
 1. Create a new file with the file extension `.py`
 2. Write the python code to read in two numbers from a user
 3. Use **comparison operators** to print **True**, if the first number is less than or equal to the second number. If this is not the case, print **False**
-```bash
-# example output
+
+**Example 1:**
+```
 First number: 4
 Second number: 8
 Checking if first number is less than or equal to second:  True
-
-# example output
+```
+**Example 2:**
+```
 First number: 23
 Second number: 2
 Checking if first number is less than or equal to second:  False
