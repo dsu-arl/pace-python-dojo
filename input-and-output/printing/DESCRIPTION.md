@@ -23,7 +23,7 @@ In addition to printing things to the screen, you sometimes need to add messages
 # This is a comment
 ```
 
-Comments start with a `#`, this is vital because it tells Python to ignore what follows. Comments can be placed on their own line, or at the end of existing lines.
+Comments start with a `#`, this is vital because it tells Python to ignore what follows. Comments can be placed on their own line, or at the end of an existing lines.
 
 For example:
 ```python
