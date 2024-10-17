@@ -26,6 +26,10 @@ def run_and_check_script(user_script_path):
             print("Error:", e)
             exit()
 
+        if '.' not in stdout.strip():
+            print("Error: Make sure that you are typecasting the user input to floats and outputting a float!")
+            exit()
+
         if not stdout.strip().endswith(answer):
             print(f"Error: Make sure that you are using the correct formula for the area of a triangle!")
             exit()
