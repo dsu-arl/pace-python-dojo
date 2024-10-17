@@ -26,13 +26,6 @@ sum = x + y
 print("{} + {} = {}".format(x, y, sum))
 ```
 
-```bash
-# example output
-Enter your first number: 4
-Enter your second number: 3
-4 + 3 = 7
-```
-
 Or you can use the `print()` function to perform the operation and print the result...
 ```python
 # multiply 2 numbers together
@@ -42,6 +35,7 @@ y = int( input("Enter your second number: ") ) # type casting
 print("{} * {} = {}".format(x, y, x*y))
 ```
 
+Either way, the output is the same:
 ```bash
 # example output
 Enter your first number: 4
