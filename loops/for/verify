@@ -16,7 +16,7 @@ def print_flag():
 def run_and_check_script(user_script_path):
     for a in ['5','10']:
         # Make sure that they print all the numbers as a countdown
-        text = re.compile('\n'.join([str(i) for i in range(0,int(a)+1,2)]), re.IGNORECASE)
+        text = re.compile('\n'.join([str(i) for i in range(0,int(a)+1,2)]) + '$', re.IGNORECASE)
         zeroCheck = re.compile('^0', re.IGNORECASE)
         topRangeCheck = re.compile(f'{a}$', re.IGNORECASE)
 
