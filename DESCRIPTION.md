@@ -19,3 +19,5 @@ Throughout this course, we will cover the fundamental concepts of Python program
 Python's simplicity and vast ecosystem make it an ideal first language. Its community is supportive and continuously evolving, offering a wealth of resources and libraries. By the end of this course, you will have a solid foundation in Python that will empower you to tackle more complex projects and continue your programming journey with confidence.
 
 Get ready to unleash your creativity and problem-solving skills as we dive into the exciting world of Python programming. Let’s begin our adventure in the Python Dojo!
+
+This is testing the automatic deployment to pwncollege by pushing to `main`.
