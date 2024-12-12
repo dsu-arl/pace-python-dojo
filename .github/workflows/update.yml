@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: pwncollege/dojo-update@v1
         with:
-          site: https://pwncollege.arl.madren.org/
+          site: https://pwncollege.arl.madren.org
           dojo: python
           update_code: ${{ secrets.UPDATE_CODE }}
