@@ -17,4 +17,4 @@ modules:
   - id: functions
     name: Functions
   - id: sockets
-	name: Sockets
+    name: Sockets
