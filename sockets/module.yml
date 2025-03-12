@@ -2,5 +2,9 @@ name: sockets
 challenges:
   - id: socketcreation
     name: Socket Creation
+  - id: serversocketcreation
+    name: Server Socket Creation
+  - id: eightballclient
+    name: Eight Ball Client
   - id: toolsofthetrade
     name: Tools of the Trade
