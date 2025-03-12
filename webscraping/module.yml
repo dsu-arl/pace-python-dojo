@@ -2,8 +2,9 @@ name: webscraping
 challenges:
   - id: requestsi
     name: Requests Part I
+  - id: beautifulsoupi
+    name: Beautifulsoup I
   - id: requestsii
     name: Requests Part II
   - id: requestsiii
     name: Requests Part III
-
