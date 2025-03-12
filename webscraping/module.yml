@@ -4,3 +4,6 @@ challenges:
     name: Requests Part I
   - id: requestsii
     name: Requests Part II
+  - id: requestsiii
+    name: Requests Part III
+
