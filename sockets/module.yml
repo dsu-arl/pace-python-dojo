@@ -4,6 +4,8 @@ challenges:
     name: Socket Creation
   - id: serversocketcreation
     name: Server Socket Creation
+  - id: serverloop
+    name: Server Loop
   - id: eightballclient
     name: Eight Ball Client
   - id: toolsofthetrade
