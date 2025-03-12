@@ -2,3 +2,5 @@ name: webscraping
 challenges:
   - id: requestsi
     name: Requests Part I
+  - id: requestsiii
+    name: Requests Part III
