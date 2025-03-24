@@ -20,3 +20,5 @@ modules:
     name: Sockets
   - id: webscraping
     name: Web Scraping
+  - id: objects
+    name: Objects
