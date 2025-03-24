@@ -5,7 +5,7 @@ from importlib import import_module
 from os.path import exists, join
 
 try:
-	USER_FILE = join('', sys.argv[1])
+	USER_FILE = join('/home/hacker', sys.argv[1])
 except IndexError:
 	print("Please give me tha name of your python file like so\n")
 	print("/challenge/verify <your_python_file_name_here>")
