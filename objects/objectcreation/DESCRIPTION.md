@@ -26,7 +26,7 @@ Challenge:
 
 Create a Car class.
 
-Give it a fuel attribute greater than 50.
+Give it a fuel attribute of 50.
 
 Add a go method that subtracts 1 from the fuel attribute each time it's called.
 
