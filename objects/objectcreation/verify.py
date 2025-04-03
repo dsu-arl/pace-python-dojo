@@ -1,8 +1,15 @@
 #!/usr/bin/exec-suid --real -- /usr/bin/python -I
 import sys
 from random import randint
-from importlib import import_module
+import importlib.util
 from os.path import exists, join
+
+def import_module_by_path(module_path):
+   module_name = "custom_module"
+   spec = importlib.util.spec_from_file_location(module_name, module_path)
+   custom_module = importlib.util.module_from_spec(spec)
+   spec.loader.exec_module(custom_module)
+   return custom_module
 
 try:
 	USER_FILE = join('/home/hacker', sys.argv[1])
@@ -17,7 +24,7 @@ if not exists(USER_FILE):
 	exit(-1)
 
 try:
-	car = import_module(f"{USER_FILE.strip('.py')}")
+	car = import_module_by_path(USER_FILE)
 except ImportError as e:
 	print(f"Failed to import data from {USER_FILE}.")
 	print(e)
