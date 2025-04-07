@@ -2,3 +2,5 @@ name: Objects
 challenges:
   - id: objectcreation
     name: Object Creation
+  - id: instances
+    name: Instances
