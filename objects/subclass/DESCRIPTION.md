@@ -8,7 +8,7 @@ However, they all also perform a lot of the same tasks. They all eat, sleep, and
 
 To get around this, we can use something called sub-classes! A sub-class is a class that derives methods and attributes from a parent class, but then adds its own functionality when necessary!
 
-How does this help with our above exapmle? I'll show you!
+How does this help with our above example? I'll show you!
 
 You can start by creating an `Animal` class like this:
 
@@ -91,7 +91,7 @@ class Employee:
 ```
 
 1. Create a sub-class called `Doctor`.
-2. Give him a customizble attribute of `speciality`
+2. Give him a customizble attribute of `specialty`
 	- It will look something like this: `def __init__(self, name, employee_id, salary, specialty)`. This specialty will be something like: Cardiologist, Pediatrician, Surgeon, etc.  
 3. Create a `diagnose` method that takes in a patients name, and a diagnosis and then prints out "<name> is diagonsed with <diagnosis>."
 
