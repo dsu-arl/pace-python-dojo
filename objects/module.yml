@@ -4,3 +4,5 @@ challenges:
     name: Object Creation
   - id: instances
     name: Instances
+  - id: arguments
+    name: Arguments
