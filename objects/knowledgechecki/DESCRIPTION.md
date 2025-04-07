@@ -8,7 +8,7 @@ Now that you have a grasp of the basics, let's try and tie them together!
 	- `length`
 	- `type` (Walleye, Bass, etc.)
 	- `is_swimming` (set it to False by default)
-	- `is_eating` (set it to Fales by default)
+	- `is_eating` (set it to False by default)
 3. Program the following methods:
 	- `swim` (Set is_swimming to True, and is_eating to False)
 	- `eat` (Set is_eating to True, and is_swimming to False)
