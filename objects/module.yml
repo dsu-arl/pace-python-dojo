@@ -12,3 +12,5 @@ challenges:
     name: Sub-Class
   - id: privatedata
     name: Private Data
+  - id: privatemethods
+    name: Private Methods
