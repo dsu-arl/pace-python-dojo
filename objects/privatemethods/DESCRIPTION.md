@@ -32,7 +32,7 @@ In this example, you can see that the same double underscore (`__`) syntax is us
 Three of these methods are private. The only callable method this class has is `bake_cake`. This method then goes on to call the three private methods! This way, the person using our class can just call one method rather than three methods. 
 
 For this challenge:
-1. Write a class called `Clock` with two attributes: hours and minutes.
+1. Write a class called `Clock` with two attributes: hours and minutes. And set them both equal to 0.
 2. Create a private method called `__is_valid(self, hours, minutes)`.
 	- This will take in two integers. You will have to validate that it is an appropriate time, in military syntax. This means it can range from 0:00 - 23:59.
 	- If the integers provided fall within the requirements for military time, then return true.
