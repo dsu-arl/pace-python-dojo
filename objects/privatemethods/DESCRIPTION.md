@@ -35,7 +35,7 @@ For this challenge:
 1. Write a class called `Clock` with two attributes: hours and minutes. And set them both equal to 0.
 2. Create a private method called `__is_valid(self, hours, minutes)`.
 	- This will take in two integers. You will have to validate that it is an appropriate time, in military syntax. This means it can range from 0:00 - 23:59.
-	- If the integers provided fall within the requirements for military time, then return true.
+	- If the integers provided fall within the requirements for military time, then return `True`, otherwise return `False`.
 3. Create a public method called `show_time` that prints out the time!
 4. Create a publicm ethod called `set_time(self, hours, minutes)`.
 	- Call the private `__is_valid` method inside this method.
