@@ -77,9 +77,9 @@ For this challenge:
 1. Write a class called `Car`.
 2. Give it a private `fuel` attribute, and set it to 0.
 3. Add a method called `add_fuel` that adds 10 to your `fuel` variable when it is called.
-4. Add a mtehod called `drive` that takes in a number representing miles.
+4. Add a method called `drive` that takes in a number representing miles.
 	- For each mile you travel, you lose 3 fuel. 
 	- Make sure to add checks so that if you are unable to expend exactly 3 fuel, you cannot drive.
-5. Add a method called `fuel_gauge` that prints the amount of fuel the car has.
+5. Add a method called `fuel_gauge` that returns value of the fuel variable that the car has.
 
 Run `/challenge/verify <your_python_file>` to verify your code and get the flag!
