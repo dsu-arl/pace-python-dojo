@@ -37,7 +37,7 @@ For this challenge:
 	- This will take in two integers. You will have to validate that it is an appropriate time, in military syntax. This means it can range from 0:00 - 23:59.
 	- If the integers provided fall within the requirements for military time, then return `True`, otherwise return `False`.
 3. Create a public method called `show_time` that prints out the time!
-4. Create a publicm ethod called `set_time(self, hours, minutes)`.
+4. Create a public method called `set_time(self, hours, minutes)`.
 	- Call the private `__is_valid` method inside this method.
 	- If the provided time is valid, set the corresponding attributes. 
 
