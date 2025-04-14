@@ -16,6 +16,8 @@ modules:
     name: Loops
   - id: functions
     name: Functions
+  - id: fileio
+    name: File I/O
   - id: sockets
     name: Sockets
   - id: webscraping
