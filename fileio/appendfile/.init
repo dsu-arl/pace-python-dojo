@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat /home/hacker/my_data.txt > /tmp/old_data.txt
