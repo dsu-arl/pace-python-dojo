@@ -4,3 +4,5 @@ challenges:
     name: Read From File
   - id: writefile
     name: Write To File
+  - id: appendfile
+    name: Append To File
