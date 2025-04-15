@@ -1,3 +1,4 @@
 #!/bin/sh
 
-cat /home/hacker/my_data.txt > /tmp/old_data.txt
+echo "Please append to this file!" > /home/hacker/append_to_me.txt
+chown hacker:hacker /home/hacker/append_to_me.txt
