@@ -2,3 +2,5 @@ name: File I/O
 challenges:
   - id: readfile
     name: Read From File
+  - id: writefile
+    name: Write To File
