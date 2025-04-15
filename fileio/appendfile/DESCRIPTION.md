@@ -8,4 +8,5 @@ To append data to a file, you will still use the `write` method for your file ob
 
 For this challenge:
 1. Append data to the file `/home/hacker/append_to_me.txt` using python.
-2. Run `/challenge/verify` to verify and receive the flag.
+2. Run your python code to append the data.
+3. Run `/challenge/verify` to verify and receive the flag.
