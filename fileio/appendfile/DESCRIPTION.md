@@ -4,11 +4,7 @@ Last challenge we learned how to 'write' data to a new file. This act created a 
 
 Appending data to a file will always add the data to the end of the file, to preserve all previous data. 
 
-To append data to a file, it's as simple as switch the `read` or `write` method with the `append` method.
-
-```python
-file_object.append("This is new data!")
-```
+To append data to a file, you will still use the `write` method for your file object. However, when you `open` the file, you will need to specify append (`a`) as the mode of operation for your file. 
 
 For this challenge:
 1. Append data to the file `/home/hacker/my_data.txt` in python.

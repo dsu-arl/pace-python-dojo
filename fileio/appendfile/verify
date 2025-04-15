@@ -2,12 +2,12 @@
 
 from os.path import exists
 
-if not exists('/tmp/user_data.txt'):
+if not exists('/tmp/old_data.txt'):
 	print("Failed to get data from my_data.txt")
 	exit(0)
 
 
-with open('/tmp/user_data.txt', 'r') as fObj:
+with open('/tmp/old_data.txt', 'r') as fObj:
 	old_data = fObj.read()
 
 if not exists('/home/hacker/my_data.txt'):
