@@ -9,7 +9,7 @@ if not exists('/home/hacker/append_to_me.txt'):
 with open('/home/hacker/append_to_me.txt', 'r') as fObj:
 	data = fObj.read()
 
-if data != "Please append to this file!\n":
+if data == "Please append to this file!\n":
 	print("It looks like you didn't append to the file.")
 	exit(0)
 
