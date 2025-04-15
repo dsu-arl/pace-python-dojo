@@ -2,26 +2,17 @@
 
 from os.path import exists
 
-if not exists('/tmp/old_data.txt'):
-	print("Failed to get data from my_data.txt")
+if not exists('/home/hacker/append_to_me.txt'):
+	print("Couldn't find file '/home/hacker/append_to_me.txt'. Please restart the machine and try again.")
 	exit(0)
 
-
-with open('/tmp/old_data.txt', 'r') as fObj:
-	old_data = fObj.read()
-
-if not exists('/home/hacker/my_data.txt'):
-	print("Couldn't find file '/home/hacker/my_data.txt'. Please go through the previous challenge to create it.")
-	exit(0)
-
-with open('/home/hacker/my_data.txt', 'r') as fObj:
+with open('/home/hacker/append_to_me.txt', 'r') as fObj:
 	data = fObj.read()
 
-if old_data == data:
-	print("No new data was added to the file.")
+if data != "Please append to this file!\n":
+	print("It looks like you didn't append to the file.")
 	exit(0)
 
-diff = data.remove(old_data)
-print(f"You added '{diff.strip()}' to '/home/hacker/my_data.txt'! Here's your flag...")
+print(f"Congratulations, here's your flag...")
 with open('/flag', 'r') as fObj:
 	print(fObj.read())

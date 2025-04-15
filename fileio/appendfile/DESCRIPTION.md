@@ -7,5 +7,5 @@ Appending data to a file will always add the data to the end of the file, to pre
 To append data to a file, you will still use the `write` method for your file object. However, when you `open` the file, you will need to specify append (`a`) as the mode of operation for your file. 
 
 For this challenge:
-1. Append data to the file `/home/hacker/my_data.txt` in python.
-2. Run `/challenge/verify` to receive the flag.
+1. Append data to the file `/home/hacker/append_to_me.txt` using python.
+2. Run `/challenge/verify` to verify and receive the flag.
