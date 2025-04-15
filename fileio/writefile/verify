@@ -12,6 +12,6 @@ if len(data) <= 0:
 	print("It looks like you didn't write any data to the file!")
 	exit(0)
 
-print(f"You wrote '{data}' to '/home/hacker/my_data.txt'! Here's your flag...")
+print(f"You wrote '{data.strip()}' to '/home/hacker/my_data.txt'! Here's your flag...")
 with open('/flag', 'r') as fObj:
 	print(fObj.read())
