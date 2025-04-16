@@ -6,3 +6,5 @@ challenges:
     name: Write To File
   - id: appendfile
     name: Append To File
+  - id: closingfiles
+    name: Closing Files
