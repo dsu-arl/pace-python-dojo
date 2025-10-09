@@ -6,8 +6,8 @@ challenges:
     name: Instances
   - id: arguments
     name: Arguments
-  - id: knowledgechecki
-    name: Knowledge Check I
+  - id: knowledgechecki-objects
+    name: Knowledge Check I (Objects)
   - id: subclass
     name: Sub-Class
   - id: privatedata

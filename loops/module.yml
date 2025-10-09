@@ -8,7 +8,7 @@ challenges:
     name: Range() Function
   - id: for
     name: For Loops
-  - id: knowledgechecki
-    name: Knowledge Check I
-  - id: knowledgecheckii
-    name: Knowledge Check II
+  - id: knowledgechecki-loops
+    name: Knowledge Check I (Loops)
+  - id: knowledgecheckii-loops
+    name: Knowledge Check II (Loops)
